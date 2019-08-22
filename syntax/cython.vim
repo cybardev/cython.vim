@@ -520,7 +520,7 @@ if version >= 508 || !exists("did_python_syn_inits")
   HiLink pythonStatement        Statement
   HiLink pythonImport           Include
   HiLink pythonFunction         Function
-  HiLink cythonType             Function
+  HiLink cythonType             Type
   HiLink pythonConditional      Conditional
   HiLink pythonRepeat           Repeat
   HiLink pythonException        Exception
@@ -581,8 +581,8 @@ if version >= 508 || !exists("did_python_syn_inits")
 
   HiLink pythonBoolean          Boolean
 
-  HiLink pythonBuiltinObj       Structure
-  HiLink pythonBuiltinFunc      Function
+  HiLink pythonBuiltinObj       Constant
+  HiLink pythonBuiltinFunc      Constant
 
   HiLink pythonExClass          Structure
 
