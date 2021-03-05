@@ -584,11 +584,11 @@ if version >= 508 || !exists("did_python_syn_inits")
 
   HiLink pythonBoolean          Boolean
 
-  HiLink pythonBuiltinObj       Constant
-  HiLink pythonBuiltinFunc      Constant
+  HiLink pythonBuiltinObj       Structure
+  HiLink pythonBuiltinFunc      Function
 
   HiLink pythonExClass          Structure
-	HiLink pythonClassVar         Identifier
+  HiLink pythonClassVar         Identifier
 
   delcommand HiLink
 endif
