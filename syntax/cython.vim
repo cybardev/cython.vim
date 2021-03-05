@@ -1,10 +1,10 @@
 " Vim syntax file
 " Language:             Cython
-" Current Maintainer:   Antony Lee <anntzer dot lee at gmail dot com>
-" URL:                  https://github.com/anntzer/vim-cython
-" Last Change:          2016-03-21
+" Current Maintainer:   Sheikh Saad <cybarspace.github.io>
+" URL:                  https://github.com/cybarspace/cython.vim
+" Last Change:          05-Mar-2021
 " Filenames:            *.pyx
-" Version:              0.1
+" Version:              0.2
 "
 " Based on python.vim (from Vim 6.1 distribution)
 " Dmitry Vasiliev <dima at hlabs dot org>
@@ -38,8 +38,8 @@
 "
 "    python_highlight_builtins              Highlight builtin functions and
 "                                           objects
-"    python_highlight_builtin_objs        Highlight builtin objects only
-"    python_highlight_builtin_funcs       Highlight builtin functions only
+"    python_highlight_builtin_objs          Highlight builtin objects only
+"    python_highlight_builtin_funcs         Highlight builtin functions only
 "    python_highlight_exceptions            Highlight standard exceptions
 "    python_highlight_string_formatting     Highlight % string formatting
 "    python_highlight_string_format         Highlight str.format syntax
